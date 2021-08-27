@@ -1,7 +1,7 @@
 if('serviceWorker' in navigator){
   window.addEventListener('load',async()=>{
    try{
-     const registration = await navigator.serviceWorker.register('../sw_cached_site.js')
+     const registration = await navigator.serviceWorker.register('./../sw_cached_site.js')
      console.log(`service worker registered`)
      console.log(registration)
 
