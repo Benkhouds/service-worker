@@ -1,5 +1,5 @@
 const cacheName= 'v1'
-const cacheAssets= ['/','index.html','about.html','/js/main.js','/css/tailwind.css']
+const cacheAssets= ['/','./index.html','./about.html','./js/main.js','./css/tailwind.css']
 
 self.addEventListener('install', e=>{
   console.log('service worker installed')
