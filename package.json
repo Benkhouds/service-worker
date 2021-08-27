@@ -1,0 +1,16 @@
+{
+  "name": "nordic-store-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sw_cached_pages.js",
+  "scripts": {
+    "tailwind:css": "set NODE_ENV=production&&npx tailwindcss -i ./css/styles.css -o ./css/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.3",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.8"
+  }
+}
